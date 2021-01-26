@@ -1,0 +1,65 @@
+/* handles the design of the header */
+
+.header {
+    font-size: 37px;
+    text-align: center;
+    text-shadow: black;
+    font-family: sans-serif;
+    background-color: olive;
+    border: 10px solid #000000;
+    margin: auto;
+    height: auto;
+    align-items: center;
+    justify-content: center;
+}
+
+
+/* designe for the main outline  for each subheader */
+
+.outline {
+    background-color: greenyellow;
+    height: 50 px;
+    font-size: 26px;
+    border-block-color: red;
+    border-block-end-style: dotted;
+    border-style: solid;
+}
+
+
+/* the main text in the body of the page would take this property */
+
+body {
+    font-family: sans-serif;
+}
+
+
+/* the property for every section of the page  */
+
+section {
+    border: 10px solid grey;
+    height: auto;
+}
+
+
+/* every text with the h1 tage would carry this property  */
+
+h1 {
+    font-family: sans-serif;
+    font-size: 40px;
+    text-decoration: underline;
+    text-underline-position: below;
+    text-emphasis-color: yellow;
+}
+
+
+/* evert section has the characteristics of the this design  */
+
+.section {
+    border: 5px solid blue;
+    height: auto;
+    width: auto;
+    background-color: teal
+}
+.grid{
+    display: grid;
+}
